@@ -38,6 +38,9 @@ cp -r ~/dsh-skills/skills/* ~/.dsh/skills/   # all, or copy individual skill dir
 | dsh-chinese-docs | Chinese technical writing conventions |
 | dsh-pr-review | PR review checklist & structured feedback |
 | dsh-task-breakdown | Task decomposition with acceptance criteria |
+| dsh-skill-adapter | Adapt public portable skills to DSH discovery roots, active tools, and safety constraints |
+| dsh-webapp-testing | Browser-evidence web-app testing with console, network, server, and regression-test checks |
+| dsh-office-artifacts | Format-aware XLSX, DOCX, PPTX, and PDF creation or repair with reopen/render verification |
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) to submit a skill.
 
