@@ -1,4 +1,4 @@
-﻿# 🐋 awesome-dsh-skills — Tested Skills for DeepSeek Harness
+# 🐋 awesome-dsh-skills — Tested Skills for DeepSeek Harness
 
 **12 original engineering skills (SKILL.md). Every skill passes a format validator mirroring the official `@deepseek-ai/dsh-skill-filesystem` rules plus an isolated-DSH_HOME load smoke test. Copy, drop in, done.**
 
