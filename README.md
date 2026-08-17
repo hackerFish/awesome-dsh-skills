@@ -1,4 +1,4 @@
-# 🐋 awesome-dsh-skills — Tested Skills for DeepSeek Harness
+﻿# 🐋 awesome-dsh-skills — Tested Skills for DeepSeek Harness
 
 **12 original engineering skills (SKILL.md). Every skill passes a format validator mirroring the official `@deepseek-ai/dsh-skill-filesystem` rules plus an isolated-DSH_HOME load smoke test. Copy, drop in, done.**
 
@@ -42,8 +42,9 @@ cp -r ~/dsh-skills/skills/* ~/.dsh/skills/   # all, or copy individual skill dir
 | dsh-webapp-testing | Browser-evidence web-app testing with console, network, server, and regression-test checks |
 | dsh-office-artifacts | Format-aware XLSX, DOCX, PPTX, and PDF creation or repair with reopen/render verification |
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) to submit a skill.
+See [CONTRIBUTING.md](CONTRIBUTING.md) to submit a skill. Contributors: [CONTRIBUTORS.md](CONTRIBUTORS.md)
 
 ## License
 
 [MIT](LICENSE)
+
