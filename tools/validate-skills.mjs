@@ -7,8 +7,11 @@
 //   - 布尔字段只接受 true/false/yes/no/on/off/1/0（大小写不敏感）；驼峰拼写与未知字段直接判错
 import { readdirSync, readFileSync, existsSync } from 'node:fs'
 import { join } from 'node:path'
+import { fileURLToPath } from 'node:url'
 
-const ROOT = new URL('..', import.meta.url).pathname
+// 用 fileURLToPath 而非 URL.pathname：后者在 Windows 上会得到 "/C:/..." 形式的路径，
+// 导致 existsSync 永远失败、误报"缺少 skills/ 目录"（旧版在 Windows 下无法运行）
+const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const SKILLS_DIR = join(ROOT, 'skills')
 const ALLOWED_KEYS = new Set(['name', 'description', 'whenToUse', 'metadata', 'disable-model-invocation', 'user-invocable'])
 const BOOL_VALUES = new Set(['true', 'false', 'yes', 'no', 'on', 'off', '1', '0'])

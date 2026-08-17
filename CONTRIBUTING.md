@@ -4,7 +4,7 @@
 
 1. Fork 本仓库，新建目录 `skills/<name>/SKILL.md`（`name` 必须 kebab-case，与目录名一致）。
 2. frontmatter 只允许以下字段：`name`（必填）、`description`（必填）、`whenToUse`、`metadata`、`disable-model-invocation`、`user-invocable`。布尔字段只接受 `true/false/yes/no/on/off/1/0`（大小写不敏感）。
-3. 本地通过校验：`node tools/validate-skills.mjs`（必须全绿）。
+3. 本地通过校验：`node tools/validate-skills.mjs`（必须全绿）。CI 会在 push/PR 时自动跑同一校验（Windows + Linux 双平台，见 `.github/workflows/validate.yml`），红则不能合。
 4. 在 README 的技能清单表加一行，提 PR。
 
 ## 内容标准（禁得起推敲）

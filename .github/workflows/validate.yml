@@ -1,0 +1,25 @@
+name: validate-skills
+
+# 每个 SKILL.md 入库前必须通过格式校验（对照官方 @deepseek-ai/dsh-skill-filesystem 规则）。
+# Windows + Linux 双平台跑：曾出现过仅 Windows 下的路径解析 bug（URL.pathname 产生 /C:/...），
+# 双平台矩阵可防止此类平台相关回归。
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Validate skills
+        run: node tools/validate-skills.mjs
