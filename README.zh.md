@@ -49,6 +49,10 @@ cp -r ~/dsh-skills/skills/* ~/.dsh/skills/     # 全部
 | [dsh-chinese-docs](skills/dsh-chinese-docs/SKILL.md) | 中文技术文档写作规范 |
 | [dsh-pr-review](skills/dsh-pr-review/SKILL.md) | PR 审查清单与结构化反馈 |
 | [dsh-task-breakdown](skills/dsh-task-breakdown/SKILL.md) | 复杂任务拆解与验收标准 |
+| [dsh-skill-adapter](skills/dsh-skill-adapter/SKILL.md) | 将公开可移植技能适配为 DSH 技能：发现根、工具映射与安全约束 |
+| [dsh-webapp-testing](skills/dsh-webapp-testing/SKILL.md) | 浏览器实证的 Web 应用测试：控制台、网络、服务端与回归检查 |
+| [dsh-office-artifacts](skills/dsh-office-artifacts/SKILL.md) | XLSX/DOCX/PPTX/PDF 生成与修复：格式感知、重开与渲染验证 |
+| [dsh-restart](skills/dsh-restart/SKILL.md) | 启动/重启/检查本机 dsh Web 服务（默认端口 3080） |
 
 ## 贡献
 
