@@ -2,7 +2,7 @@
 
 **实测可用的 DeepSeek Harness 技能（skills）精选库：每个 `SKILL.md` 都通过格式校验与加载冒烟，复制即用。**
 
-> 与 [dsh-lab](https://github.com/hackerFish/dsh-lab)（插件实测实验室）共用同一套标准：**先验证，再发布**。dsh-lab 回答"这个插件能不能装、代码里有什么"，本库回答"模型按什么流程干得更好"。
+> 与 [dsh-lab](https://github.com/hackerFish/dsh-lab)（插件实测实验室）共用同一套标准：**先验证，再发布**。dsh-lab 回答"这个插件能不能装、代码里有什么"，本库回答"模型按什么流程干得更好"。兄弟仓库：[dsh-restart](https://github.com/hackerFish/dsh-restart)（启动/重启/检查 dsh Web 服务，独立项目）。
 
 ## 什么是 DSH 技能
 
@@ -52,7 +52,6 @@ cp -r ~/dsh-skills/skills/* ~/.dsh/skills/     # 全部
 | [dsh-skill-adapter](skills/dsh-skill-adapter/SKILL.md) | 将公开可移植技能适配为 DSH 技能：发现根、工具映射与安全约束 |
 | [dsh-webapp-testing](skills/dsh-webapp-testing/SKILL.md) | 浏览器实证的 Web 应用测试：控制台、网络、服务端与回归检查 |
 | [dsh-office-artifacts](skills/dsh-office-artifacts/SKILL.md) | XLSX/DOCX/PPTX/PDF 生成与修复：格式感知、重开与渲染验证 |
-| [dsh-restart](skills/dsh-restart/SKILL.md) | 启动/重启/检查本机 dsh Web 服务（默认端口 3080） |
 
 ## 贡献
 

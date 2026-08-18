@@ -1,8 +1,8 @@
 # 🐋 awesome-dsh-skills — Tested Skills for DeepSeek Harness
 
-**16 original engineering skills (SKILL.md). Every skill passes a format validator mirroring the official `@deepseek-ai/dsh-skill-filesystem` rules plus an isolated-DSH_HOME load smoke test. Copy, drop in, done.**
+**15 original engineering skills (SKILL.md). Every skill passes a format validator mirroring the official `@deepseek-ai/dsh-skill-filesystem` rules plus an isolated-DSH_HOME load smoke test. Copy, drop in, done.**
 
-[中文](README.zh.md) · Sibling repos: [dsh-lab](https://github.com/hackerFish/dsh-lab) · [awesome-dsh-presets](https://github.com/hackerFish/awesome-dsh-presets) · [dsh-video-studio](https://github.com/hackerFish/dsh-video-studio)
+[中文](README.zh.md) · Sibling repos: [dsh-lab](https://github.com/hackerFish/dsh-lab) · [awesome-dsh-presets](https://github.com/hackerFish/awesome-dsh-presets) · [dsh-video-studio](https://github.com/hackerFish/dsh-video-studio) · [dsh-restart](https://github.com/hackerFish/dsh-restart)
 
 ## What DSH skills are
 
@@ -22,7 +22,7 @@ cp -r ~/dsh-skills/skills/* ~/.dsh/skills/   # all, or copy individual skill dir
 2. Load smoke test in an isolated `DSH_HOME` (skills placed, harness booted clean)
 3. Content rule: verified facts only; no unverified "magic prompts"
 
-## Skills (16)
+## Skills (15)
 
 | Skill | Purpose |
 |---|---|
@@ -41,7 +41,6 @@ cp -r ~/dsh-skills/skills/* ~/.dsh/skills/   # all, or copy individual skill dir
 | dsh-skill-adapter | Adapt public portable skills to DSH discovery roots, active tools, and safety constraints |
 | dsh-webapp-testing | Browser-evidence web-app testing with console, network, server, and regression-test checks |
 | dsh-office-artifacts | Format-aware XLSX, DOCX, PPTX, and PDF creation or repair with reopen/render verification |
-| dsh-restart | Start/restart/check the local dsh web service (default port 3080) |
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) to submit a skill. Contributors: [CONTRIBUTORS.md](CONTRIBUTORS.md)
 
